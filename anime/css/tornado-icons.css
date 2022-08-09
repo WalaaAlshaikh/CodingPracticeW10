@@ -5,6 +5,9 @@
     src: url(/Week10/CodingPracticeW10/anime/fonts/tornado-icons.woff2) format("woff2")
 }
 
+
+
+
 [data-icon]:before {
     font-family: tornado-icons !important;
     content: attr(data-icon);

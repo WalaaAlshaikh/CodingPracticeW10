@@ -1,29 +1,29 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 
 :root {
-    --body-bg: #FCFCFC;
-    --primary-color: #816bab;
-    --primary-hover: #674e96;
-    --primary-dark: #523c7f;
-    --primary-reverse: #FFF;
+    --body-bg: #000000;
+    --primary-color: #451010;
+    --primary-hover: #451010;
+    --primary-dark: #451010;
+    --primary-reverse: rgb(209, 209, 209);
     --secondary-color: #f7b748;
     --secondary-hover: #e39000;
-    --secondary-reverse: #FFFFFF;
+    --secondary-reverse: #000000;
     --success-color: #22b544;
     --danger-color: #de3131;
     --warning-color: #f4bb0e;
     --info-color: #17c0db;
-    --gray-color: #868e96;
-    --dark-color: #343a40;
-    --disable-color: #ebebeb;
+    --gray-color: #a5a5a5;
+    --dark-color: #8f8f8f;
+    --disable-color: #0c0c0c;
     --success-light: #c1eecc;
     --danger-light: #fbbbbb;
     --warning-light: #ffdd75;
     --info-light: #a6eaf5;
     --gray-light: #d9dde1;
-    --dark-light: #585C5F;
-    --headlines-color: #1c1c1c;
-    --typography-color: #555;
+    --dark-light: #b4b4b4;
+    --headlines-color: #e3e3e3;
+    --typography-color: rgb(224, 224, 224);
     --light-reverse: #000;
     --dark-reverse: #FFF;
     --primary-font: 'Roboto';
@@ -36,12 +36,12 @@
     --normal-weight: 400;
     --medium-weight: 500;
     --strong-weight: 600;
-    --component-background: #FFFFFF;
-    --component-darker-bg: #f8f8f8;
+    --component-background: #121212;
+    --component-darker-bg: #070707;
     --component-color: var(--dark-color);
     --component-active-bg: var(--primary-color);
     --component-active-color: var(--primary-reverse);
-    --component-border: 1px solid rgba(0, 0, 0, .10);
+    --component-border: 1px solid rgba(223, 223, 223, 0);
     --component-radius: 5px;
     --component-padding: 15px;
     --component-shadow: none
@@ -3066,7 +3066,7 @@ blockquote.ti-lead-pencil::before {
     --forms-bg: #FFF;
     --forms-color: var(--typography-color);
     --forms-radius: 5px;
-    --forms-border: 1px solid rgba(0, 0, 0, 0.1);
+    --forms-border: 1px solid rgb(215, 215, 215);
     --forms-darker-bg: #ebebeb;
     --forms-shadow: inset 0 0 5px rgba(0, 0, 0, 0.03);
     --forms-btns-shadow: none;
@@ -5780,7 +5780,7 @@ label+.range-slider+.tornado-range-slider:not(.vertical) {
 }
 
 :root {
-    --table-background: #FFFFFF;
+    --table-background: #bebebe;
     --table-head-bg: #f4f4f4;
     --table-striped: #f4f4f4;
     --table-border: 1px solid rgba(0, 0, 0, 0.1);
@@ -10311,7 +10311,7 @@ iframe {
 .home-header::after,
 .classic-blog .home-header.info::after {
     content: '';
-    background: #fff;
+    background: rgb(26, 26, 26);
     bottom: 0;
     left: 0;
     right: 0;
@@ -10483,13 +10483,13 @@ iframe {
 .media-section {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: #fff
+    background:rgb(26, 26, 26)
 }
 
 .media-section.light-gray {
     border-top: 1px solid rgba(0, 0, 0, .1);
     border-bottom: 1px solid rgba(0, 0, 0, .1);
-    background: #fcfcfc
+    background: rgb(26, 26, 26)
 }
 
 .counter-cta {
@@ -10629,7 +10629,7 @@ iframe {
 
 .page-head {
     text-align: center;
-    background: #fff;
+    background: rgb(26, 26, 26);
     padding: 30px 15px;
     border-bottom: 1px solid rgba(0, 0, 0, .1)
 }
@@ -10646,7 +10646,7 @@ iframe {
 }
 
 .page-head .page-controls span {
-    background-color: #f5f5f5
+    background-color: #393939
 }
 
 .page-head .page-controls .btn:not(:nth-child(2)) {
@@ -10889,7 +10889,7 @@ iframe {
 }
 
 .main-footer {
-    background: #473273 url(../img/footer.png) repeat-x top center;
+    background: #451010 url(../img/footer.png) repeat-x top center;
     background-blend-mode: soft-light;
     color: #fff;
     padding-top: 50px
@@ -11052,7 +11052,7 @@ iframe {
 
 .filters-section {
     padding-top: 30px;
-    background: #fff;
+    background: rgb(26, 26, 26);
     border-bottom: 1px solid rgba(0, 0, 0, .1)
 }
 
@@ -11166,7 +11166,7 @@ iframe {
 
 .fake-box {
     height: 200px;
-    background: #fff;
+    background: rgb(40, 40, 40);
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     margin-bottom: -200px
 }
@@ -11441,7 +11441,7 @@ iframe {
     padding: 0 15px;
     background: #fff;
     border: 1px solid rgba(0, 0, 0, .1);
-    color: var(--typography-color);
+    color: black;
     margin-bottom: 10px;
     margin-right: 5px;
     line-height: 36px;
@@ -11476,7 +11476,7 @@ iframe {
 
 .comments-list .comment-block {
     margin-bottom: 20px;
-    background: #fff;
+    background: rgb(198, 198, 198);
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 10px;
     padding: 20px
@@ -11508,13 +11508,13 @@ iframe {
 .comments-list .comment-block .info h3 span {
     display: block;
     font-weight: 400;
-    color: var(--gray-color)
+    color: var(--disable-color)
 }
 
 .comments-list .comment-block p {
     margin-bottom: 0;
     font-size: 15px;
-    color: var(--gray-color);
+    color: var(--disable-color);
     line-height: 1.5
 }
 
@@ -11978,7 +11978,7 @@ body.fakeScroll--grabbed {
 
 .blog-details {
     padding: 25px;
-    background-color: #fff;
+    background-color: rgb(81, 81, 81);
     border: 1px solid rgba(0, 0, 0, .1);
     margin-bottom: 30px
 }
@@ -12110,7 +12110,7 @@ body.fakeScroll--grabbed {
 
 .widget-block {
     margin-bottom: 30px;
-    background-color: #fff;
+    background-color: rgb(63, 63, 63);
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 20px
 }
@@ -12264,7 +12264,7 @@ body.fakeScroll--grabbed {
 .forums-list .forum-block {
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, .1);
-    background-color: #fff
+    background-color: rgb(63, 63, 63)
 }
 
 .forums-list .forum-block:not(:last-child) {
@@ -12290,12 +12290,12 @@ body.fakeScroll--grabbed {
 
 .forums-list .forum-block .title h3 {
     font-size: 1rem;
-    color: var(--dark-color)
+    color: rgb(220, 220, 220) ;
 }
 
 .forums-list .forum-block .title p {
     font-size: 15px;
-    color: var(--gray-color);
+    color: rgb(220, 220, 220);
     margin-bottom: 0
 }
 
@@ -12758,7 +12758,7 @@ body.fakeScroll--grabbed {
 
 .login .content-box {
     padding: 25px;
-    background-color: #fff;
+    background-color: rgb(63, 63, 63);
     border: 1px solid rgba(0, 0, 0, .1)
 }
 
