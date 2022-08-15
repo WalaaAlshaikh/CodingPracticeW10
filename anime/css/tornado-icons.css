@@ -2,11 +2,8 @@
     font-family: tornado-icons;
     font-style: normal;
     font-weight: 400;
-    src: url(/Week10/CodingPracticeW10/anime/fonts/tornado-icons.woff2) format("woff2")
+    src: url(../fonts/tornado-icons.woff2) format("woff2")
 }
-
-
-
 
 [data-icon]:before {
     font-family: tornado-icons !important;
